@@ -21,6 +21,12 @@ window.REKRD_SHOPIFY = {
   // TODO(rools): replace with real domain once DNS is pointed. e.g. "shop.rekrd.io"
   storeDomain: "shop.rekrd.io",
 
+  // While variant IDs are missing, Checkout opens a clearly-labelled
+  // SIMULATION (js/demo-checkout.js) for client demos. As soon as real
+  // variant IDs are pasted below, the real Shopify checkout takes over
+  // and the demo never shows. Set false to disable the simulation.
+  demoMode: true,
+
   currency: "ZAR",
 
   products: {

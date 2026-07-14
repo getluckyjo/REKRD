@@ -47,6 +47,16 @@ Sub pages (shop/product/about/faq/contact) were removed 2026-07-14; their conten
 is preserved as sections. If the site ever needs them back, they're in git history
 (`git log -- site/shop.html`).
 
+### Demo checkout (for client walkthroughs)
+
+While the Shopify variant IDs are unconfigured, the Checkout button opens a
+**clearly-labelled simulation** (`js/demo-checkout.js`): a Shopify-style checkout
+page with pre-filled dummy contact/delivery/Paystack-card data (nothing editable,
+nothing stored) ending in a mock "Order #REKRD-1001 confirmed" screen. Controlled
+by `demoMode: true` in `js/shopify-config.js`. **The moment real variant IDs are
+pasted in, the real Shopify checkout takes over automatically** — no need to
+remove anything, though you can set `demoMode: false` any time.
+
 ### Verified working
 - All internal links across 11 pages (automated check: 0 broken)
 - Cart: add/remove/quantity, subtotal, drawer, persists across pages (localStorage)

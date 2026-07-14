@@ -75,7 +75,13 @@
     });
 
     if (missing.length || !CFG.storeDomain) {
-      // Shopify not wired up yet — explain instead of failing silently.
+      // Shopify not wired up yet.
+      if (CFG.demoMode && window.REKRD_DEMO) {
+        // Clearly-labelled checkout simulation for client demos.
+        close();
+        window.REKRD_DEMO.open(cart);
+        return;
+      }
       toast("Checkout not connected yet");
       alert(
         "Shopify checkout isn't connected yet.\n\n" +
