@@ -177,7 +177,11 @@ p + p { margin-top: 1em; }
 .hero .lede { margin-bottom: 34px; }
 .hero__cta { display: flex; gap: 14px; flex-wrap: wrap; }
 .hero__visual { position: relative; }
-.hero__visual img { position: relative; z-index: 1; margin-inline: auto; max-height: 640px; border-radius: var(--radius); }
+.hero__visual img {
+  position: relative; z-index: 1; margin-inline: auto;
+  width: auto; height: auto; max-width: 100%; max-height: 640px;
+  border-radius: var(--radius);
+}
 .tick-ring {
   position: absolute; inset: 50% auto auto 50%; translate: -50% -50%;
   width: min(120%, 640px); aspect-ratio: 1; z-index: 0; opacity: .55;
