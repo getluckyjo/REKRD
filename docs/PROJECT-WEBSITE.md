@@ -84,8 +84,16 @@ remove anything, though you can set `demoMode: false` any time.
 
 ## 3. Hosting
 
-Any static host works. Recommended: **Netlify or Vercel free tier** (drag-and-drop the
-`site/` folder or connect this repo, set `site/` as the publish directory).
+Any static host works. Chosen: **Vercel → rekrd.vercel.app**.
+
+### Deploying to rekrd.vercel.app (~3 minutes, one-time)
+1. Go to [vercel.com/new](https://vercel.com/new), sign in with the GitHub account that owns `getluckyjo/REKRD`, and import the repo.
+2. **Project name:** `rekrd` → gives `rekrd.vercel.app` (first-come namespace; if taken, `rekrd-io` or `getrekrd`).
+3. **Root Directory:** set to `site` (Edit → choose the folder). Framework preset: **Other**. No build command, no output directory — it's plain static files (`site/vercel.json` handles caching + clean URLs, and `404.html` is picked up automatically).
+4. Under Settings → Git, set the **Production Branch** to `claude/rekrd-shopify-website-444ho5` (or merge this branch to `main` first and leave the default).
+5. Deploy. Every push to the production branch then auto-deploys.
+
+Later, `rekrd.io` can be added as a custom domain in Vercel (Settings → Domains) while `shop.rekrd.io` stays pointed at Shopify.
 
 Domain plan (decide with the team):
 - **Option A (recommended):** `rekrd.io` → this site (brand/marketing front) · `shop.rekrd.io` → Shopify (checkout). Cart hands over seamlessly.
