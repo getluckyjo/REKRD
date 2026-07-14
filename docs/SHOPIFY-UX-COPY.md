@@ -62,7 +62,7 @@ first-language speaker — never machine-translated. **[TODO: Linda/team to appr
 >
 > Per sachet: 600 mg sodium, 150 mg potassium, 100 mg magnesium, 500 mg L-glutamine, vitamin C and zinc. Enriched with coconut water powder and ancient Himalayan salt with trace minerals. Zero sugar, zero fillers, zero artificial anything. Third-party tested.
 >
-> One a day in 500–600 ml of cold water. When the last sachet's gone, keep the tube — refill packs are coming.
+> One a day in 500 ml of cold water. When the last sachet's gone, keep the tube — refill packs are coming.
 >
 > *R20 per sachet · Free delivery · Made in South Africa*
 
