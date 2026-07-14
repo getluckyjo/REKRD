@@ -1,0 +1,7 @@
+{
+  "$comment": "Repo-root Vercel config: serve the static site from site/ even when the project's Root Directory setting is left at the repo root.",
+  "buildCommand": "",
+  "outputDirectory": "site",
+  "cleanUrls": true,
+  "trailingSlash": false
+}
