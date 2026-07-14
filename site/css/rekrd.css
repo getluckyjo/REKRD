@@ -75,6 +75,7 @@ h3 { font-size: clamp(20px, 2.2vw, 24px); }
   text-transform: lowercase;
   letter-spacing: 0;
 }
+.accent--cap { text-transform: none; }
 .spec, .eyebrow {
   font-family: var(--font-mono);
   font-weight: 500;

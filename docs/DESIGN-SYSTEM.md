@@ -72,7 +72,7 @@ Three voices, loaded from Google Fonts (self-hosting flagged in the launch TODO)
 Type scale (desktop → mobile): H1 `clamp(44px→88px)`, H2 `clamp(32px→56px)`, H3 24px, body 17px, spec 12px.
 
 **The headline formula** (use everywhere):
-`HEAVY CAPS ARCHIVO` + *italic serif words* for contrast → "*ready.* *set.* HYDRATE."
+`HEAVY CAPS ARCHIVO` + *italic serif words* for contrast → "*Ready.* *Set.* HYDRATE." (use `.accent--cap` to keep capitals on accent words)
 
 **Wordmark:** never typeset "REKRD" in a font as a logo. Use the extracted assets
 (`site/assets/img/rekrd-wordmark-ink.png` / `-white.png`, pulled from the packaging render).
