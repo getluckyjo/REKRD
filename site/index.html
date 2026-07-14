@@ -65,8 +65,8 @@
             <circle cx="100" cy="100" r="92" fill="none" stroke="#0B1220" stroke-width="9" stroke-dasharray="1.5 8.6" opacity=".35"/>
             <circle cx="100" cy="100" r="78" fill="none" stroke="#0B1220" stroke-width="4" stroke-dasharray="1 23" opacity=".3"/>
           </svg>
-          <!-- TODO(design): replace with cut-out hero render on transparent background -->
-          <img src="assets/img/tube-front.jpg" alt="REKRD hydration tube — dusty blue cylinder with black REKRD wordmark" width="918" height="1222">
+          <!-- TODO(design): re-export hero film at 1080p+ (current source 848x480) -->
+          <video src="assets/video/rekrd-hero.mp4" poster="assets/img/hero-poster.jpg" autoplay muted loop playsinline aria-label="REKRD brand film — on your marks, golden-hour padel, life in motion"></video>
         </div>
       </div>
     </section>
@@ -104,29 +104,29 @@
         <!-- Fruit photography: Unsplash (Drahomír Hugo Posteby-Mach, Rejaul Karim, Okeykat, Michael Waddell, Zhangzui) -->
         <ul class="flavours">
           <li class="flavour reveal" style="--fl:var(--fl-cherry)">
-            <img class="flavour__img" src="assets/img/fruit-sour-cherry-apple.jpg" alt="Crisp green apples" loading="lazy" width="900" height="675">
             <h3>Sour Cherry Apple</h3>
             <p class="spec">Sharp · Bright</p>
+            <img class="flavour__img" src="assets/img/fruit-sour-cherry-apple.jpg" alt="Crisp green apples" loading="lazy" width="900" height="675">
           </li>
           <li class="flavour reveal" style="--fl:var(--fl-pineapple)">
-            <img class="flavour__img" src="assets/img/fruit-pineapple-berry.jpg" alt="Ripe pineapples" loading="lazy" width="900" height="675">
             <h3>Pineapple Berry</h3>
             <p class="spec">Sweet · Tropical</p>
+            <img class="flavour__img" src="assets/img/fruit-pineapple-berry.jpg" alt="Ripe pineapples" loading="lazy" width="900" height="675">
           </li>
           <li class="flavour reveal" style="--fl:var(--fl-orange)">
-            <img class="flavour__img" src="assets/img/fruit-orange-zest.jpg" alt="Curls of fresh orange zest" loading="lazy" width="900" height="675">
             <h3>Orange Zest</h3>
             <p class="spec">Classic · Clean</p>
+            <img class="flavour__img" src="assets/img/fruit-orange-zest.jpg" alt="Curls of fresh orange zest" loading="lazy" width="900" height="675">
           </li>
           <li class="flavour reveal" style="--fl:var(--fl-rooibos)">
-            <img class="flavour__img" src="assets/img/fruit-rooibos-peach.jpg" alt="Blushing ripe peaches" loading="lazy" width="900" height="675">
             <h3>Rooibos Peach Iced-Tea</h3>
             <p class="spec">Smooth · Proudly local</p>
+            <img class="flavour__img" src="assets/img/fruit-rooibos-peach.jpg" alt="Blushing ripe peaches" loading="lazy" width="900" height="675">
           </li>
           <li class="flavour reveal" style="--fl:var(--fl-watermelon)">
-            <img class="flavour__img" src="assets/img/fruit-salty-watermelon.jpg" alt="Quartered watermelon, deep red" loading="lazy" width="900" height="675">
             <h3>Salty Watermelon</h3>
             <p class="spec">Salted · Summer</p>
+            <img class="flavour__img" src="assets/img/fruit-salty-watermelon.jpg" alt="Quartered watermelon, deep red" loading="lazy" width="900" height="675">
           </li>
         </ul>
       </div>
@@ -230,13 +230,6 @@
           </div>
         </div>
       </div>
-    </section>
-
-    <!-- Video band -->
-    <section class="media-band reveal">
-      <!-- TODO(design): re-render montage at 1080p+ for web -->
-      <video src="assets/video/rekrd-montage.mp4" poster="assets/img/montage-poster.jpg" autoplay muted loop playsinline aria-label="REKRD brand montage"></video>
-      <span class="stamp media-band__note">For the record</span>
     </section>
 
     <!-- Nutrition -->
