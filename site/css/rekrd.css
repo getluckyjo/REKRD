@@ -169,30 +169,32 @@ p + p { margin-top: 1em; }
 .btn--wide { width: 100%; }
 .btn[disabled] { opacity: .45; cursor: not-allowed; }
 
-/* ---------- Hero ---------- */
-.hero { overflow: hidden; position: relative; }
-.hero__in { display: grid; gap: 40px; padding-block: clamp(56px, 8vw, 110px); align-items: center; }
-@media (min-width: 900px) { .hero__in { grid-template-columns: 1.1fr .9fr; } }
+/* ---------- Hero (copy left in the page grid, media full-bleed right) ---------- */
+.hero { overflow: hidden; }
+.hero__in { display: grid; align-items: stretch; }
+.hero__copy {
+  align-self: center;
+  padding-block: clamp(48px, 7vw, 110px);
+  padding-inline: clamp(20px, 4vw, 48px);
+}
 .hero h1 { margin: 18px 0 22px; }
 .hero .lede { margin-bottom: 34px; }
 .hero__cta { display: flex; gap: 14px; flex-wrap: wrap; }
 .hero__visual { position: relative; }
-.hero__visual img {
-  position: relative; z-index: 1; margin-inline: auto;
-  width: auto; height: auto; max-width: 100%; max-height: 640px;
-  border-radius: var(--radius);
+.hero__visual video, .hero__visual img {
+  display: block; width: 100%; height: 100%; object-fit: cover;
 }
-.hero__visual video {
-  position: relative; z-index: 1; display: block;
-  width: 100%; aspect-ratio: 1 / 1; object-fit: cover;
-  max-height: 640px; border-radius: var(--radius);
+@media (min-width: 900px) {
+  .hero__in { grid-template-columns: 1fr 1fr; }
+  .hero__copy {
+    margin-left: max(0px, calc((100vw - var(--w-max)) / 2));
+    padding-right: clamp(32px, 4vw, 72px);
+  }
+  .hero__visual { min-height: 640px; }
 }
-.tick-ring {
-  position: absolute; inset: 50% auto auto 50%; translate: -50% -50%;
-  width: min(120%, 640px); aspect-ratio: 1; z-index: 0; opacity: .55;
-  animation: spin 60s linear infinite;
+@media (max-width: 899px) {
+  .hero__visual { aspect-ratio: 1 / 1; }
 }
-@keyframes spin { to { rotate: 360deg; } }
 
 /* ---------- Ticker ---------- */
 .ticker { background: var(--ink); color: var(--powder-100); overflow: hidden; padding: 13px 0; }
@@ -227,8 +229,12 @@ p + p { margin-top: 1em; }
 .flavour h3 { font-size: 17px; margin: 0 0 6px; }
 .flavour .spec { color: var(--ink-soft); font-size: 11px; margin-bottom: 18px; }
 .flavour__dot { width: 28px; height: 28px; border-radius: 50%; background: var(--fl); border: 1px solid var(--hairline); }
+.flavour__sachet {
+  width: 100%; height: auto; margin-top: auto;
+  border-radius: var(--radius); border: 1px solid var(--hairline);
+}
 .flavour__img {
-  width: 100%; height: 44px; object-fit: cover; margin-top: auto;
+  width: 100%; height: 44px; object-fit: cover; margin-top: 12px;
   border-radius: var(--radius); border: 1px solid var(--hairline);
 }
 
@@ -379,7 +385,6 @@ html.js .reveal.in { opacity: 1; transform: none; }
 @media (prefers-reduced-motion: reduce) {
   html { scroll-behavior: auto; }
   .ticker__track { animation: none; flex-wrap: wrap; width: auto; }
-  .tick-ring { animation: none; }
   html.js .reveal { opacity: 1; transform: none; transition: none; }
 }
 
