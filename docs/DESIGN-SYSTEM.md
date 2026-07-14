@@ -112,6 +112,7 @@ Small circular/rect mono-type badges: `THIRD-PARTY TESTED`, `PTA · ZA`, `30 SAC
 | **Announcement bar** | Ink strip, powder text, mono 12px, spectrum bar as bottom border |
 | **Inputs** | White fill, 1px ink border, 2px radius, mono placeholder |
 | **Footer** | Ink field, powder-100 text, wordmark-white large, columns mono, legal 11px |
+| **Stat scoreboard** | 4-up grid (2-up tablet, 1-up mobile) of cream tiles in a hairline frame. Value in display 900 at clamp(44→64px) with proportional figures, mono unit suffix, mono label above hairline, one-line note. Monochrome ink — never coloured. Companion `.spec-strip`: single mono line of minor values separated by `/` |
 
 Spacing: 8px base grid; sections `clamp(72px→140px)` vertical. Max content width 1200px; text measure 65ch.
 Radii: 2px everywhere (print-crisp). 24px only for stamps/pills.

@@ -17,15 +17,16 @@ client-side cart that checks out through Shopify.
 
 ### Sitemap / file map
 
+**Single-page site** (per Johannes, July 14): all content lives on index.html with
+anchor navigation — `#shop`, `#ritual`, `#flavours`, `#about`, `#faq`, `#contact`.
+Only the legal policy pages remain separate documents (Paystack reads them).
+
 ```
 site/
-├── index.html               Homepage — full brand experience
-├── shop.html                Catalogue (the Paystack/Takealot requirement)
-├── product-30-pack.html     REKRD Hydration — 30 sachets — R600
-├── product-5-pack.html      REKRD Starter — 5 sachets — R100
-├── about.html               Brand story
-├── faq.html                 Product / delivery / subscription FAQ
-├── contact.html             hello@rekrd.io + trade enquiries
+├── index.html               THE site — hero video, ticker, positioning, flavours
+│                            (sachet renders), formula, shop (#shop — the
+│                            Paystack/Takealot catalogue), ritual, nutrition
+│                            scoreboard, subscription, about, FAQ, contact
 ├── 404.html                 Branded not-found
 ├── policies/
 │   ├── privacy.html         POPIA-oriented privacy policy
@@ -35,11 +36,16 @@ site/
 ├── js/
 │   ├── shopify-config.js    ← THE ONLY FILE TO EDIT to connect Shopify
 │   ├── cart.js              localStorage cart + Shopify permalink checkout
-│   └── main.js              nav, reveal-on-scroll, qty stepper
+│   └── main.js              nav, reveal-on-scroll, anchor menu close
 └── assets/
-    ├── img/                 extracted wordmark (ink/white), tube renders, favicon, video poster
-    └── video/rekrd-montage.mp4
+    ├── img/                 wordmark (ink/white), tube + sachet + 5-pack renders,
+    │                        fruit photos (unused, kept), favicon, hero poster
+    └── video/rekrd-hero.mp4 brand film (848×480 — hi-res re-export on TODO)
 ```
+
+Sub pages (shop/product/about/faq/contact) were removed 2026-07-14; their content
+is preserved as sections. If the site ever needs them back, they're in git history
+(`git log -- site/shop.html`).
 
 ### Verified working
 - All internal links across 11 pages (automated check: 0 broken)

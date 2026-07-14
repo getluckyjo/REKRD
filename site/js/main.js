@@ -15,6 +15,12 @@
       var openState = links.classList.toggle("is-open");
       burger.setAttribute("aria-expanded", openState ? "true" : "false");
     });
+    links.addEventListener("click", function (e) {
+      if (e.target.closest("a")) {
+        links.classList.remove("is-open");
+        burger.setAttribute("aria-expanded", "false");
+      }
+    });
   }
 
   /* Reveal on scroll */

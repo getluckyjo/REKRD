@@ -49,11 +49,11 @@ first-language speaker — never machine-translated. **[TODO: Linda/team to appr
 3. **Positioning** — "PERFORMANCE. IN SPORT AND *everyday* LIFE." Lede: "Your personal best isn't only set on a scoreboard…" (18 holes, third set, boardroom at 3pm, red-eye, "the morning after a very good evening") + "…built to keep you at your personal best wherever you're keeping score."
 4. **Flavours** — "NEVER GET *bored*. FIVE FLAVOURS." with two-word descriptors (Sharp·Bright / Sweet·Tropical / Classic·Clean / Smooth·Proudly local / Salted·Summer), per-flavour sachet mock-up + slim fruit strip.
 5. **Formula** — "CONSIDERED, / *not complicated.*" (two lines, second line all italic) + numbered 01–05 ingredient stories.
-6. **Products** — "START YOUR *record*."
+6. **Products** — "LET'S GET *started*."
 7. **Ritual** — "ONE A DAY. / *Feel your personal best.*" (second line italic serif). Tear / Stir / Go.
-8. **Nutrition** — "PRINTED ON THE TUBE. *proud* OF IT."
+8. **Nutrition** — "KNOW YOUR *numbers*." Lede: "A record is just a number you care about. Here are ours — in every sachet, with nothing hidden in the fine print." Four scoreboard stat tiles (600mg sodium / 150mg potassium / 100mg magnesium / 500mg L-glutamine) + one spec strip (sugar, vit C, calcium, zinc, energy, fat) + pack/NRV footnote.
 9. **Subscription** — "BUY THE TUBE *once*." Order 01 the tube → Order 02+ refills → Members save.
-10. **Story band** — "REKRD, as in *record*. As in *personal* record."
+10. ~~Story band~~ — removed from the homepage for now; the name story lives on the About page ("REKRD, as in your *personal record*." is the keeper line if it returns).
 
 ### Product pages — Shopify-admin-ready descriptions
 

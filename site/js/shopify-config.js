@@ -31,7 +31,7 @@ window.REKRD_SHOPIFY = {
       unit: "R20 / sachet",
       variantId: null,               // TODO(rools): paste Shopify variant ID
       image: "assets/img/tube-front.jpg",
-      url: "product-30-pack.html"
+      url: "index.html#shop"
     },
     "starter-5": {
       title: "REKRD Starter — 5 Sachets",
@@ -40,7 +40,7 @@ window.REKRD_SHOPIFY = {
       unit: "R20 / sachet",
       variantId: null,               // TODO(rools): paste Shopify variant ID
       image: "assets/img/pack-5.jpg",
-      url: "product-5-pack.html"
+      url: "index.html#shop"
     },
     "refill-30": {
       title: "REKRD Refill — 30 Sachets",

@@ -28,11 +28,11 @@
         <img src="assets/img/rekrd-wordmark-ink.png" alt="REKRD">
       </a>
       <nav class="nav__links" aria-label="Main">
-        <a href="shop.html">Shop</a>
-        <a href="index.html#ritual">The Ritual</a>
-        <a href="about.html">About</a>
-        <a href="faq.html">FAQ</a>
-        <a href="contact.html">Contact</a>
+        <a href="#shop">Shop</a>
+        <a href="#ritual">The Ritual</a>
+        <a href="#about">About</a>
+        <a href="#faq">FAQ</a>
+        <a href="#contact">Contact</a>
       </nav>
       <div style="display:flex;gap:16px;align-items:center">
         <button class="nav__burger" aria-expanded="false" aria-controls="nav-links">Menu</button>
@@ -51,8 +51,8 @@
           <h1><span class="accent accent--cap">Ready. Set.</span><br>Hydrate.</h1>
           <p class="lede">Electrolytes, minerals and nothing you don’t need — in a tube you’ll keep long after the last sachet. Five flavours. Zero fillers. Third-party tested.</p>
           <div class="hero__cta">
-            <a class="btn" href="product-30-pack.html">Shop the 30 — R600</a>
-            <a class="btn btn--ghost" href="product-5-pack.html">Try the 5 — R100</a>
+            <a class="btn" href="#shop">Shop the 30 — R600</a>
+            <a class="btn btn--ghost" href="#shop">Try the 5 — R100</a>
           </div>
           <div class="stamps" style="margin-top:36px">
             <span class="stamp">Third-party tested</span>
@@ -158,7 +158,7 @@
     <section class="section section--blue" id="shop">
       <div class="wrap">
         <span class="eyebrow reveal">The catalogue</span>
-        <h2 class="reveal mb-56">Start your <span class="accent">record</span>.</h2>
+        <h2 class="reveal mb-56">Let’s get <span class="accent">started</span>.</h2>
         <div class="cards cards--2">
           <article class="card reveal">
             <div class="card__media">
@@ -166,7 +166,7 @@
               <img src="assets/img/tube-front.jpg" alt="REKRD Hydration tube — 30 sachets">
             </div>
             <div class="card__body">
-              <h3><a href="product-30-pack.html">REKRD Hydration — 30 Sachets</a></h3>
+              <h3>REKRD Hydration — 30 Sachets</h3>
               <p class="card__meta">The collectible tube. All five flavours, six of each. One a day — a month of feeling your personal best.</p>
               <div class="card__price"><span>R600</span><span class="per">R20 / sachet</span></div>
               <button class="btn" data-add-to-cart="tube-30">Add to cart</button>
@@ -178,7 +178,7 @@
               <img src="assets/img/pack-5.jpg" alt="REKRD Starter — five sachets, one of each flavour">
             </div>
             <div class="card__body">
-              <h3><a href="product-5-pack.html">REKRD Starter — 5 Sachets</a></h3>
+              <h3>REKRD Starter — 5 Sachets</h3>
               <p class="card__meta">One of each flavour. Find your favourite — or discover you don’t have to choose.</p>
               <div class="card__price"><span>R100</span><span class="per">R20 / sachet</span></div>
               <button class="btn" data-add-to-cart="starter-5">Add to cart</button>
@@ -216,40 +216,44 @@
 
     <!-- Nutrition -->
     <section class="section section--blue-light">
-      <div class="wrap grid-2" style="align-items:start">
-        <div class="reveal">
-          <span class="eyebrow">Typical nutritional information</span>
-          <h2>Printed on the tube. <span class="accent">proud</span> of it.</h2>
-          <p class="lede" style="margin-top:22px">Per sachet (±4,5&nbsp;g), the numbers that matter:</p>
-          <ol class="numbered" style="margin-top:26px">
-            <li><div><h3>600&nbsp;mg sodium</h3><p>The workhorse electrolyte.</p></div></li>
-            <li><div><h3>150&nbsp;mg potassium</h3><p>Balance, not bloat.</p></div></li>
-            <li><div><h3>100&nbsp;mg magnesium</h3><p>Muscle function and recovery.</p></div></li>
-            <li><div><h3>500&nbsp;mg L-glutamine</h3><p>Gut-friendly, every day.</p></div></li>
-            <li><div><h3>0&nbsp;g sugar per sachet</h3><p>Nothing to crash on.</p></div></li>
-          </ol>
+      <div class="wrap">
+        <div class="reveal" style="max-width:62ch">
+          <span class="eyebrow">Per sachet · ±4,5 g</span>
+          <h2>Know your <span class="accent">numbers</span>.</h2>
+          <p class="lede" style="margin-top:22px">A record is just a number you care about. Here are ours — in every sachet, with nothing hidden in the fine print.</p>
         </div>
-        <div class="reveal">
-          <!-- TODO(team): verify all values against final print artwork before launch -->
-          <table class="spec-table">
-            <caption>Per serving · ±4,5 g sachet · 30 per pack</caption>
-            <tbody>
-              <tr><td>Energy</td><td>29 kJ</td></tr>
-              <tr><td>Protein</td><td>0,0 g</td></tr>
-              <tr><td>Carbohydrate</td><td>0,5 g</td></tr>
-              <tr class="indent"><td>of which total sugar</td><td>0,0 g</td></tr>
-              <tr><td>Total fat</td><td>0,0 g</td></tr>
-              <tr><td>Sodium</td><td>600 mg</td></tr>
-              <tr><td>Potassium</td><td>150 mg</td></tr>
-              <tr><td>Magnesium</td><td>100 mg</td></tr>
-              <tr><td>Vitamin C</td><td>30 mg</td></tr>
-              <tr><td>Calcium</td><td>7 mg</td></tr>
-              <tr><td>Zinc</td><td>7 mg</td></tr>
-              <tr><td>L-Glutamine</td><td>500 mg</td></tr>
-            </tbody>
-          </table>
-          <p class="spec" style="margin-top:14px;color:var(--ink-soft)">Full panel on pack · SA NRVs for individuals 4 years and older</p>
+        <!-- TODO(team): verify all values against final print artwork before launch -->
+        <div class="stats reveal" style="margin-top:48px">
+          <div class="stat">
+            <p class="stat__value">600<span class="stat__unit">mg</span></p>
+            <p class="stat__label">Sodium</p>
+            <p class="stat__note">The workhorse electrolyte.</p>
+          </div>
+          <div class="stat">
+            <p class="stat__value">150<span class="stat__unit">mg</span></p>
+            <p class="stat__label">Potassium</p>
+            <p class="stat__note">Balance, not bloat.</p>
+          </div>
+          <div class="stat">
+            <p class="stat__value">100<span class="stat__unit">mg</span></p>
+            <p class="stat__label">Magnesium</p>
+            <p class="stat__note">Muscle function and recovery.</p>
+          </div>
+          <div class="stat">
+            <p class="stat__value">500<span class="stat__unit">mg</span></p>
+            <p class="stat__label">L-Glutamine</p>
+            <p class="stat__note">Gut-friendly, every day.</p>
+          </div>
         </div>
+        <ul class="spec-strip reveal" aria-label="Also in every sachet">
+          <li>Sugar <b>0,0 g</b></li>
+          <li>Vitamin C <b>30 mg</b></li>
+          <li>Calcium <b>7 mg</b></li>
+          <li>Zinc <b>7 mg</b></li>
+          <li>Energy <b>29 kJ</b></li>
+          <li>Fat <b>0,0 g</b></li>
+        </ul>
+        <p class="spec reveal" style="margin-top:18px;color:var(--ink-soft)">Full panel printed on the pack · SA NRVs for individuals 4 years and older</p>
       </div>
     </section>
 
@@ -260,7 +264,7 @@
           <span class="eyebrow" style="color:var(--powder-300)">The smart way to REKRD</span>
           <h2>Buy the tube <span class="accent">once</span>.</h2>
           <p class="lede" style="color:var(--powder-100);opacity:.85;margin-top:22px">Your first order arrives in the tube — a piece of kit that earns its spot on the kitchen counter. After that, refills arrive by subscription, on your schedule, at a better price.</p>
-          <a class="btn btn--on-ink" href="product-30-pack.html" style="margin-top:34px">Get the tube</a>
+          <a class="btn btn--on-ink" href="#shop" style="margin-top:34px">Get the tube</a>
         </div>
         <div class="reveal">
           <ol class="numbered" style="--hairline:rgba(220,233,241,.25)">
@@ -272,16 +276,85 @@
       </div>
     </section>
 
-    <!-- Story band -->
-    <section class="section">
-      <div class="wrap center">
-        <span class="eyebrow reveal">For the record</span>
-        <h2 class="reveal maxw-c">REKRD, as in <span class="accent">record</span>. As in <span class="accent">personal</span> record.</h2>
-        <p class="lede maxw-c reveal" style="margin-top:26px">Not the one on a leaderboard. The quiet one — feeling better today than yesterday. We put it in a tube that looks like it came from a 1970s pro shop, because good things deserve to be kept.</p>
-        <div class="reveal" style="margin-top:36px">
-          <a class="btn btn--ghost" href="about.html">Read the story</a>
+    <!-- About -->
+    <section class="section" id="about">
+      <div class="wrap grid-2" style="align-items:start">
+        <div class="reveal">
+          <span class="eyebrow">For the record</span>
+          <h2>REKRD, as in your <span class="accent">personal record</span>.</h2>
         </div>
-        <p class="spec reveal" style="margin-top:56px;color:var(--ink-soft)">Follow the record · <a href="https://www.instagram.com/rekrd.io" rel="noopener" target="_blank">@rekrd.io</a></p>
+        <div class="reveal">
+          <ol class="numbered">
+            <li><div><h3>The name</h3><p>Not the record on a leaderboard — the quiet one. Feeling better today than yesterday. The .io says the rest: what you put <em>in</em> is what you get <em>out</em>.</p></div></li>
+            <li><div><h3>The formula</h3><p>Built by an Ironman athlete who got tired of powders full of fillers and dyes. Honest electrolyte doses, coconut water powder, Himalayan salt, L-glutamine — and every batch third-party tested, because “trust us” isn’t an ingredient.</p></div></li>
+            <li><div><h3>The tube</h3><p>Remember tennis-ball tubes? The kind that popped when you opened them and lived on a shelf for twenty years. That’s the standard — a container designed to be kept, and soon, refilled.</p></div></li>
+          </ol>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="section section--blue-light" id="faq">
+      <div class="wrap" style="max-width:860px">
+        <span class="eyebrow reveal">Questions, answered</span>
+        <h2 class="reveal mb-40">Fair <span class="accent">questions</span>.</h2>
+        <div class="faq-list reveal">
+          <details>
+            <summary>What exactly is REKRD?</summary>
+            <div class="faq-a"><p>A clean hydration powder in single-serve sachets. Electrolytes (sodium, potassium, magnesium), coconut water powder, ancient Himalayan salt with trace minerals, L-glutamine, vitamin C and zinc. No fillers, no artificial colours, flavours or sweeteners. Mix one sachet into 500–600&nbsp;ml of cold water, once a day.</p></div>
+          </details>
+          <details>
+            <summary>Do I need to do sport to use it?</summary>
+            <div class="faq-a"><p>No. Most people run mildly dehydrated on nothing more strenuous than air-conditioning, coffee and life. REKRD works for golf and padel days, but also for long flights, hot days, fasting mornings and late nights.</p></div>
+          </details>
+          <details>
+            <summary>Why only one a day?</summary>
+            <div class="faq-a"><p>Our formula is balanced for daily use — enough electrolytes to work, not so much sodium that you feel like biltong. On very hot or very active days, listen to your body (and your water bottle).</p></div>
+          </details>
+          <details>
+            <summary>What does “third-party tested” mean?</summary>
+            <div class="faq-a"><p>We pay an independent laboratory to test our batches — for purity and for the label matching what’s actually in the sachet. It costs us real money and we think it’s the cost of being taken seriously.</p></div>
+          </details>
+          <details>
+            <summary>Is there sugar or caffeine in it?</summary>
+            <div class="faq-a"><p>No added sugar (0,0&nbsp;g per sachet) and no caffeine. It won’t spike you and it won’t crash you.</p></div>
+          </details>
+          <details>
+            <summary>How long does delivery take?</summary>
+            <div class="faq-a"><p>1–3 working days in major metros, 2–5 working days regionally, via the Bob Go courier network. Free on orders over R500 — which the tube clears on its own. You’ll get tracking the moment your order ships.</p></div>
+          </details>
+          <details>
+            <summary>How do refill subscriptions work?</summary>
+            <div class="faq-a"><p>Your first order arrives in the collectible tube. After that, refill packs arrive on a schedule you choose, at subscriber pricing. Pause, skip or cancel anytime, no interrogation. Launching soon — join the newsletter to be first.</p></div>
+          </details>
+          <details>
+            <summary>Something arrived damaged. Now what?</summary>
+            <div class="faq-a"><p>Email <a href="mailto:hello@rekrd.io">hello@rekrd.io</a> with your order number and a photo, and we’ll sort it out — replacement or refund, your call. Full details in our <a href="policies/shipping-returns.html">shipping &amp; returns policy</a>.</p></div>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="section" id="contact">
+      <div class="wrap grid-2" style="align-items:start">
+        <div class="reveal">
+          <span class="eyebrow">Contact</span>
+          <h2>Say <span class="accent">hello</span>.</h2>
+          <p class="lede" style="margin-top:18px">One inbox, actual humans, replies within a working day.</p>
+        </div>
+        <div class="reveal">
+          <table class="spec-table">
+            <caption>Directory</caption>
+            <tbody>
+              <tr><td>Everything</td><td><a href="mailto:hello@rekrd.io">hello@rekrd.io</a></td></tr>
+              <tr><td>Instagram</td><td><a href="https://www.instagram.com/rekrd.io" rel="noopener" target="_blank">@rekrd.io</a></td></tr>
+              <tr><td>Company</td><td>REKRD (Pty) Ltd</td></tr>
+              <tr><td>Base</td><td>Pretoria, South Africa</td></tr>
+            </tbody>
+          </table>
+          <p style="color:var(--ink-soft);margin-top:22px;font-size:15px">Run a pro shop, halfway house, padel club or a very thirsty office? We do wholesale, event sampling and co-branded tubes for golf days — email us with “TRADE” in the subject and skip the queue.</p>
+        </div>
       </div>
     </section>
 
@@ -310,17 +383,16 @@
         <div>
           <h4>Shop</h4>
           <ul>
-            <li><a href="product-30-pack.html">The 30 — R600</a></li>
-            <li><a href="product-5-pack.html">The 5 — R100</a></li>
-            <li><a href="shop.html">All products</a></li>
+            <li><a href="#shop">The 30 — R600</a></li>
+            <li><a href="#shop">The 5 — R100</a></li>
           </ul>
         </div>
         <div>
           <h4>Company</h4>
           <ul>
-            <li><a href="about.html">About</a></li>
-            <li><a href="faq.html">FAQ</a></li>
-            <li><a href="contact.html">Contact</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#faq">FAQ</a></li>
+            <li><a href="#contact">Contact</a></li>
             <li><a href="https://www.instagram.com/rekrd.io" rel="noopener" target="_blank">Instagram</a></li>
           </ul>
         </div>
