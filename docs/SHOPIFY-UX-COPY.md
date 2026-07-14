@@ -50,7 +50,7 @@ first-language speaker — never machine-translated. **[TODO: Linda/team to appr
 4. **Flavours** — "NEVER GET *bored*. FIVE FLAVOURS." with two-word descriptors (Sharp·Bright / Sweet·Tropical / Classic·Clean / Smooth·Proudly local / Salted·Summer), per-flavour sachet mock-up + slim fruit strip.
 5. **Formula** — "CONSIDERED, / *not complicated.*" (two lines, second line all italic) + numbered 01–05 ingredient stories.
 6. **Products** — "START YOUR *record*."
-7. **Ritual** — "ONE A DAY. *that's* IT." Tear / Stir / Go.
+7. **Ritual** — "ONE A DAY. / *Feel your personal best.*" (second line italic serif). Tear / Stir / Go.
 8. **Nutrition** — "PRINTED ON THE TUBE. *proud* OF IT."
 9. **Subscription** — "BUY THE TUBE *once*." Order 01 the tube → Order 02+ refills → Members save.
 10. **Story band** — "REKRD, as in *record*. As in *personal* record."
