@@ -46,7 +46,7 @@ first-language speaker — never machine-translated. **[TODO: Linda/team to appr
 ### Homepage
 1. **Hero** — eyebrow `CLEAN HYDRATION · LOCALLY ENGINEERED`; H1 "*Ready.* *Set.* HYDRATE." (stacked three lines — first two italic serif with capitals, last in bold display caps); lede: "Electrolytes, minerals and nothing you don't need — in a tube you'll keep long after the last sachet. Five flavours. Zero fillers. Third-party tested." CTAs: `SHOP THE 30 — R600` / `TRY THE 5 — R100`.
 2. **Ticker** — the eight use-cases from the pack: ENDURANCE / HEAT SUPPORT / LONG FLIGHTS / LATE NIGHTS / ANTI-CRAMPING / SPORTS RECOVERY / MUSCLE FUNCTION / FASTING SUPPORT.
-3. **Positioning** — "HYDRATION FOR PEOPLE WHO DON'T *do* HYDRATION." + the occasions paragraph (18 holes, third set, red-eye, "the morning after a very good evening").
+3. **Positioning** — "PERFORMANCE. IN SPORT AND *everyday* LIFE." Lede: "Your personal best isn't only set on a scoreboard…" (18 holes, third set, boardroom at 3pm, red-eye, "the morning after a very good evening") + "…built to keep you at your personal best wherever you're keeping score."
 4. **Flavours** — "ONE TUBE. *five* FLAVOURS." with two-word descriptors (Sharp·Bright / Sweet·Tropical / Classic·Clean / Smooth·Proudly local / Salted·Summer).
 5. **Formula** — "CONSIDERED, *not* COMPLICATED." + numbered 01–05 ingredient stories.
 6. **Products** — "START YOUR *record*."
