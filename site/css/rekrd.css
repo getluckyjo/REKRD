@@ -184,6 +184,10 @@ p + p { margin-top: 1em; }
 .hero__visual video, .hero__visual img {
   display: block; width: 100%; height: 100%; object-fit: cover;
 }
+.hero__note {
+  position: absolute; bottom: 16px; right: 16px; z-index: 2;
+  background: var(--ink); color: var(--powder-100);
+}
 @media (min-width: 900px) {
   .hero__in { grid-template-columns: 1fr 1fr; }
   .hero__copy {
