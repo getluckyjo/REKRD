@@ -244,7 +244,10 @@ p + p { margin-top: 1em; }
 
 /* ---------- Product cards ---------- */
 .cards { display: grid; gap: 24px; }
-@media (min-width: 860px) { .cards { grid-template-columns: repeat(3, 1fr); } }
+@media (min-width: 860px) {
+  .cards { grid-template-columns: repeat(3, 1fr); }
+  .cards--2 { grid-template-columns: repeat(2, 1fr); max-width: 900px; margin-inline: auto; }
+}
 .card {
   background: var(--cream); border: 1px solid var(--hairline-blue); border-radius: var(--radius);
   display: flex; flex-direction: column; overflow: hidden;

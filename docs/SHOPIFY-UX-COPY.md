@@ -30,7 +30,7 @@ first-language speaker — never machine-translated. **[TODO: Linda/team to appr
 
 | Element | Copy |
 |---|---|
-| Announcement bar | `THIRD-PARTY TESTED · FREE DELIVERY ON ORDERS OVER R500, SOUTH AFRICA WIDE` |
+| Announcement bar | `THIRD-PARTY TESTED · FREE DELIVERY ON ORDERS OVER R500` |
 | Cart button | `CART · {n}` |
 | Empty cart | "Your cart is empty." + `ONE A DAY. START TODAY.` |
 | Checkout button | `CHECKOUT ON SHOPIFY →` |
@@ -47,8 +47,8 @@ first-language speaker — never machine-translated. **[TODO: Linda/team to appr
 1. **Hero** — eyebrow `CLEAN HYDRATION · LOCALLY ENGINEERED`; H1 "*Ready.* *Set.* HYDRATE." (stacked three lines — first two italic serif with capitals, last in bold display caps); lede: "Electrolytes, minerals and nothing you don't need — in a tube you'll keep long after the last sachet. Five flavours. Zero fillers. Third-party tested." CTAs: `SHOP THE 30 — R600` / `TRY THE 5 — R100`.
 2. **Ticker** — the eight use-cases from the pack: ENDURANCE / HEAT SUPPORT / LONG FLIGHTS / LATE NIGHTS / ANTI-CRAMPING / SPORTS RECOVERY / MUSCLE FUNCTION / FASTING SUPPORT.
 3. **Positioning** — "PERFORMANCE. IN SPORT AND *everyday* LIFE." Lede: "Your personal best isn't only set on a scoreboard…" (18 holes, third set, boardroom at 3pm, red-eye, "the morning after a very good evening") + "…built to keep you at your personal best wherever you're keeping score."
-4. **Flavours** — "ONE TUBE. *five* FLAVOURS." with two-word descriptors (Sharp·Bright / Sweet·Tropical / Classic·Clean / Smooth·Proudly local / Salted·Summer).
-5. **Formula** — "CONSIDERED, *not* COMPLICATED." + numbered 01–05 ingredient stories.
+4. **Flavours** — "NEVER GET *bored*. FIVE FLAVOURS." with two-word descriptors (Sharp·Bright / Sweet·Tropical / Classic·Clean / Smooth·Proudly local / Salted·Summer), per-flavour sachet mock-up + slim fruit strip.
+5. **Formula** — "CONSIDERED, / *not complicated.*" (two lines, second line all italic) + numbered 01–05 ingredient stories.
 6. **Products** — "START YOUR *record*."
 7. **Ritual** — "ONE A DAY. *that's* IT." Tear / Stir / Go.
 8. **Nutrition** — "PRINTED ON THE TUBE. *proud* OF IT."
