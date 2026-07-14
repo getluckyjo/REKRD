@@ -44,7 +44,7 @@ first-language speaker — never machine-translated. **[TODO: Linda/team to appr
 ## 3. Page-by-page copy (canonical)
 
 ### Homepage
-1. **Hero** — eyebrow `CLEAN HYDRATION · EST. PRETORIA, ZA`; H1 "FEEL YOUR *personal* BEST."; lede: "Electrolytes, minerals and nothing you don't need — in a tube you'll keep long after the last sachet. Five flavours. Zero fillers. Third-party tested." CTAs: `SHOP THE 30 — R600` / `TRY THE 5 — R100`.
+1. **Hero** — eyebrow `CLEAN HYDRATION · PRETORIA, ZA`; H1 "READY. SET. *hydrate*." (stacked, three lines); lede: "Electrolytes, minerals and nothing you don't need — in a tube you'll keep long after the last sachet. Five flavours. Zero fillers. Third-party tested." CTAs: `SHOP THE 30 — R600` / `TRY THE 5 — R100`.
 2. **Ticker** — the eight use-cases from the pack: ENDURANCE / HEAT SUPPORT / LONG FLIGHTS / LATE NIGHTS / ANTI-CRAMPING / SPORTS RECOVERY / MUSCLE FUNCTION / FASTING SUPPORT.
 3. **Positioning** — "HYDRATION FOR PEOPLE WHO DON'T *do* HYDRATION." + the occasions paragraph (18 holes, third set, red-eye, "the morning after a very good evening").
 4. **Flavours** — "ONE TUBE. *five* FLAVOURS." with two-word descriptors (Sharp·Bright / Sweet·Tropical / Classic·Clean / Smooth·Proudly local / Salted·Summer).

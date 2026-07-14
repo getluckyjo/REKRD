@@ -72,7 +72,7 @@ Three voices, loaded from Google Fonts (self-hosting flagged in the launch TODO)
 Type scale (desktop → mobile): H1 `clamp(44px→88px)`, H2 `clamp(32px→56px)`, H3 24px, body 17px, spec 12px.
 
 **The headline formula** (use everywhere):
-`HEAVY CAPS ARCHIVO` + one *italic serif word* → "FEEL YOUR *personal* BEST."
+`HEAVY CAPS ARCHIVO` + one *italic serif word* → "READY. SET. *hydrate*."
 
 **Wordmark:** never typeset "REKRD" in a font as a logo. Use the extracted assets
 (`site/assets/img/rekrd-wordmark-ink.png` / `-white.png`, pulled from the packaging render).
@@ -97,7 +97,7 @@ exactly the nutrition panel. Used for: nutrition info, product specs, shipping t
 Full-bleed marquee strip: `ENDURANCE / HEAT SUPPORT / LONG FLIGHTS / LATE NIGHTS / ANTI-CRAMPING / SPORTS RECOVERY / MUSCLE FUNCTION / FASTING SUPPORT` — ink strip, powder-blue text, 40s loop, pauses on hover. `prefers-reduced-motion` → static row.
 
 ### 4.5 Stamps
-Small circular/rect mono-type badges: `THIRD-PARTY TESTED`, `EST. PTA · ZA`, `30 SACHETS`,
+Small circular/rect mono-type badges: `THIRD-PARTY TESTED`, `PTA · ZA`, `30 SACHETS`,
 `ONE A DAY`. Rendered as bordered text, print-style. Never drop-shadowed.
 
 ## 5. Components
