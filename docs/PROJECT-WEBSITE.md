@@ -99,8 +99,8 @@ Everything below is flagged with `TODO` comments in the code at the exact spot i
 | **Final logo files** (vector SVG, ink + white) | nav, footer, favicon | Wordmark extracted from packaging render (raster, 765px — good but not print-grade) |
 | **Final favicon** | all pages | Interim tick-ring SVG |
 | **Hi-res hero film** (1080p+, current source 848×480) | homepage hero video | WhatsApp export (new-logo film, July 14) |
-| **5-pack pouch render** | 5-pack PDP + cards | Reusing tube-back render |
-| **Refill pouch render + name** | refill card | Wordmark on powder field |
+| ~~5-pack pouch render~~ | done — "Test Pack 05" render live on cards + PDP | — |
+| **Refill pouch render + name** | needed before the refill launches | — |
 | **Flavour illustrations / sachet renders** (5) | flavour line-up section | Colour dots only |
 | **OG/social share image** (1200×630) | meta tags | Tube render (uncropped) |
 | ~~Brand montage video~~ | removed — carried the old mirrored-K wordmark | — |

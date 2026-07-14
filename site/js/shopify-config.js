@@ -39,7 +39,7 @@ window.REKRD_SHOPIFY = {
       price: 100,                    // ZAR — confirmed 2026-07-14
       unit: "R20 / sachet",
       variantId: null,               // TODO(rools): paste Shopify variant ID
-      image: "assets/img/pack-5-lineup.jpg",
+      image: "assets/img/pack-5.jpg",
       url: "product-5-pack.html"
     },
     "refill-30": {
