@@ -222,6 +222,10 @@ p + p { margin-top: 1em; }
 .flavour h3 { font-size: 17px; margin: 14px 0 6px; }
 .flavour .spec { color: var(--ink-soft); font-size: 11px; }
 .flavour__dot { width: 28px; height: 28px; border-radius: 50%; background: var(--fl); border: 1px solid var(--hairline); }
+.flavour__img {
+  width: 100%; height: auto; aspect-ratio: 4 / 3; object-fit: cover;
+  border-radius: var(--radius); border: 1px solid var(--hairline);
+}
 
 /* ---------- Product cards ---------- */
 .cards { display: grid; gap: 24px; }
