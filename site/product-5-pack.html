@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>REKRD Starter — 5 Sachets, One of Each Flavour | R100</title>
+  <meta name="description" content="Five REKRD hydration sachets — one of each flavour. The easiest way to find your favourite. R100, delivered across South Africa.">
+  <link rel="icon" type="image/svg+xml" href="assets/img/favicon.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Archivo:ital,wdth,wght@0,62..125,100..900;1,62..125,100..900&family=IBM+Plex+Mono:wght@400;500&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/rekrd.css">
+</head>
+<body>
+
+  <div class="announce">Third-party tested &nbsp;·&nbsp; Free delivery on orders over R500, South Africa wide</div>
+  <div class="spectrum" aria-hidden="true"><span></span><span></span><span></span><span></span><span></span></div>
+
+  <header class="nav">
+    <div class="wrap nav__in">
+      <a class="nav__logo" href="index.html" aria-label="REKRD home">
+        <img src="assets/img/rekrd-wordmark-ink.png" alt="REKRD">
+      </a>
+      <nav class="nav__links" aria-label="Main">
+        <a href="shop.html" aria-current="page">Shop</a>
+        <a href="index.html#ritual">The Ritual</a>
+        <a href="about.html">About</a>
+        <a href="faq.html">FAQ</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+      <div style="display:flex;gap:16px;align-items:center">
+        <button class="nav__burger" aria-expanded="false">Menu</button>
+        <button class="nav__cart" data-cart-open>Cart · <span data-cart-count>0</span></button>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+    <div class="wrap pdp">
+      <div class="pdp__gallery">
+        <!-- TODO(design): dedicated 5-pack pouch render + sachet flat-lay photography -->
+        <img src="assets/img/tube-back.jpg" alt="REKRD flavour line-up — five flavours from Sour Cherry Apple to Salty Watermelon" width="1108" height="1400">
+      </div>
+
+      <div>
+        <span class="eyebrow">First timer · 5 sachets · 1 of each flavour</span>
+        <h1 style="font-size:clamp(34px,4.6vw,56px)">REKRD <span class="accent">starter</span></h1>
+        <p class="pdp__price">R100</p>
+        <p class="pdp__per">R20 / sachet · a working week of better</p>
+
+        <p class="lede" style="margin-top:22px">Five sachets, five flavours, zero commitment. The easiest way to meet REKRD — and to find out whether you’re a Salty Watermelon person or a Rooibos Peach person. (You can be both. We won’t tell.)</p>
+
+        <div class="pdp__buy">
+          <div class="pdp__qty" aria-label="Quantity">
+            <button type="button" data-qty-step="-1" aria-label="Decrease quantity">−</button>
+            <span data-qty>1</span>
+            <button type="button" data-qty-step="1" aria-label="Increase quantity">+</button>
+          </div>
+          <button class="btn btn--wide" data-add-to-cart="starter-5">Add to cart — R100</button>
+          <p class="spec" style="color:var(--ink-soft)">Add 5+ starters or a tube for free delivery over R500</p>
+        </div>
+
+        <div class="stamps">
+          <span class="stamp">Third-party tested</span>
+          <span class="stamp">No fillers</span>
+          <span class="stamp">All 5 flavours</span>
+        </div>
+
+        <section>
+          <h2>Inside</h2>
+          <table class="spec-table">
+            <caption>One of each</caption>
+            <tbody>
+              <tr><td>Sour Cherry Apple</td><td>×1</td></tr>
+              <tr><td>Pineapple Berry</td><td>×1</td></tr>
+              <tr><td>Orange Zest</td><td>×1</td></tr>
+              <tr><td>Rooibos Peach Iced-Tea</td><td>×1</td></tr>
+              <tr><td>Salty Watermelon</td><td>×1</td></tr>
+            </tbody>
+          </table>
+        </section>
+
+        <section>
+          <h2>Then what?</h2>
+          <p style="color:var(--ink-soft)">Found your flavour? The <a href="product-30-pack.html">30-sachet tube</a> is the main event — all five flavours in a container you’ll keep for years. Refill packs and subscriptions are on the way.</p>
+        </section>
+      </div>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="wrap footer__in">
+      <div class="footer__mark">
+        <img src="assets/img/rekrd-wordmark-white.png" alt="REKRD">
+        <p class="footer__tag">feel your personal best.</p>
+      </div>
+      <div class="footer__grid">
+        <div>
+          <h4>Newsletter</h4>
+          <p style="font-size:14px;opacity:.8;max-width:34ch">Launch news, refill subscriptions and the occasional limited-edition tube. No noise.</p>
+          <form class="field" style="margin-top:16px" action="#" onsubmit="alert('Newsletter signup not wired up yet — see docs/PROJECT-WEBSITE.md');return false">
+            <label for="nl-email">Email address</label>
+            <div style="display:flex;gap:8px">
+              <input id="nl-email" type="email" placeholder="YOU@EXAMPLE.COM" required style="flex:1;border-color:var(--powder-300);background:transparent;color:var(--powder-100)">
+              <button class="btn btn--on-ink" type="submit">Join</button>
+            </div>
+          </form>
+        </div>
+        <div>
+          <h4>Shop</h4>
+          <ul>
+            <li><a href="product-30-pack.html">The 30 — R600</a></li>
+            <li><a href="product-5-pack.html">The 5 — R100</a></li>
+            <li><a href="shop.html">All products</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Company</h4>
+          <ul>
+            <li><a href="about.html">About</a></li>
+            <li><a href="faq.html">FAQ</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="https://www.instagram.com/rekrd.io" rel="noopener" target="_blank">Instagram</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Fine print</h4>
+          <ul>
+            <li><a href="policies/shipping-returns.html">Shipping &amp; returns</a></li>
+            <li><a href="policies/privacy.html">Privacy policy</a></li>
+            <li><a href="policies/terms.html">Terms of service</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer__legal">
+        <span>© <span data-year>2026</span> REKRD (Pty) Ltd · Pretoria, South Africa</span>
+        <span>hello@rekrd.io</span>
+        <span>Not intended to diagnose, treat, cure or prevent any disease.</span>
+      </div>
+    </div>
+  </footer>
+
+  <div class="cart-overlay" data-cart-close></div>
+  <aside class="cart-drawer" aria-label="Shopping cart">
+    <div class="cart-drawer__head">
+      <h2>Your cart</h2>
+      <button class="spec" data-cart-close aria-label="Close cart">Close ✕</button>
+    </div>
+    <div class="cart-drawer__items" data-cart-items></div>
+    <div class="cart-drawer__foot">
+      <div class="cart-drawer__total"><span>Subtotal</span><span data-cart-total>R0</span></div>
+      <button class="btn btn--wide" data-cart-checkout onclick="REKRD_CART.checkout()">Checkout on Shopify →</button>
+      <p class="cart-drawer__note">Secure checkout · Paystack · Free delivery over R500</p>
+    </div>
+  </aside>
+
+  <script src="js/shopify-config.js"></script>
+  <script src="js/cart.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
