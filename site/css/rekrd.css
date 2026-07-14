@@ -237,10 +237,6 @@ p + p { margin-top: 1em; }
   width: 100%; height: auto; margin-top: auto;
   border-radius: var(--radius); border: 1px solid var(--hairline);
 }
-.flavour__img {
-  width: 100%; height: 44px; object-fit: cover; margin-top: 12px;
-  border-radius: var(--radius); border: 1px solid var(--hairline);
-}
 
 /* ---------- Product cards ---------- */
 .cards { display: grid; gap: 24px; }
